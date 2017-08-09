@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zehra Betül Boynueğri</title>
-    <link>https://zehrabetulboynuegri.github.io/blog/</link>
+    <link>zehrabetulboynuegri.me/</link>
     <description>Recent content on Zehra Betül Boynueğri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zehrabetulboynuegri.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="zehrabetulboynuegri.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Links</title>
-      <link>https://zehrabetulboynuegri.github.io/blog/links/</link>
+      <link>zehrabetulboynuegri.me/links/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://zehrabetulboynuegri.github.io/blog/links/</guid>
+      <guid>zehrabetulboynuegri.me/links/</guid>
       <description>Ritchie and his friends.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://zehrabetulboynuegri.github.io/blog/about/</link>
+      <link>zehrabetulboynuegri.me/about/</link>
       <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://zehrabetulboynuegri.github.io/blog/about/</guid>
+      <guid>zehrabetulboynuegri.me/about/</guid>
       <description>Pamukkale Üniversitesi&amp;rsquo;nde bilgisayar mühendisliği okuyorum.Sistem ve ağ güvenliği uzmanı olma isteğim doğrultusunda kendimi daha çok sistem, ağ, güvenlik konuları üzerine geliştirmekteyim.</description>
     </item>
     
     <item>
       <title>Dns Tünelleme</title>
-      <link>https://zehrabetulboynuegri.github.io/blog/post/dnstunnelling/</link>
+      <link>zehrabetulboynuegri.me/post/dnstunnelling/</link>
       <pubDate>Thu, 03 Aug 2017 19:19:28 +0300</pubDate>
       
-      <guid>https://zehrabetulboynuegri.github.io/blog/post/dnstunnelling/</guid>
+      <guid>zehrabetulboynuegri.me/post/dnstunnelling/</guid>
       <description>Iodine Aracı Kullanarak Dns Tünelleme  Iodine aracı kullanarak dns tünelleme nasıl yapılır inceleyelim. Bize kontrolümüzde olan bir sunucu lazım bunun için ben digitalocean da oluşturduğum sunucuyu kullanacağım. Ve bu sunucuya bağlı bir domain adına ihtiyacımız var. Domain adını ücretsiz olarak edinebileceğiniz bir çok seçenek mevcut. Alan adını alırken dns ayarlarında &#34;use your own DNS&#34; sekmesinden nameserver kısmına digitalocean nameserver adlarını yazıyoruz ve devam ettikten sonra onaylıyoruz.
 Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz.</description>
     </item>
