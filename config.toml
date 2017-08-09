@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "http://zehrabetulboynuegri.github.io/blog/"
 languageCode = "tr"
 title = "Zehra Betül Boynueğri"
 theme = "hugo-nuo"
