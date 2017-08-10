@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://zehrabetulboynuegri.me/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Links</title>
-      <link>http://zehrabetulboynuegri.me/links/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://zehrabetulboynuegri.me/links/</guid>
-      <description>Ritchie and his friends.</description>
-    </item>
     
     <item>
       <title>About</title>
@@ -33,10 +24,10 @@
     <item>
       <title>Dns Tünelleme</title>
       <link>http://zehrabetulboynuegri.me/post/dnstunnelling/</link>
-      <pubDate>Thu, 03 Aug 2017 19:19:28 +0300</pubDate>
+      <pubDate>Thu, 03 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://zehrabetulboynuegri.me/post/dnstunnelling/</guid>
-      <description>Iodine Aracı Kullanarak Dns Tünelleme  Iodine aracı kullanarak dns tünelleme nasıl yapılır inceleyelim. Bize kontrolümüzde olan bir sunucu lazım bunun için ben digitalocean da oluşturduğum sunucuyu kullanacağım. Ve bu sunucuya bağlı bir domain adına ihtiyacımız var. Domain adını ücretsiz olarak edinebileceğiniz bir çok seçenek mevcut. Alan adını alırken dns ayarlarında &#34;use your own DNS&#34; sekmesinden nameserver kısmına digitalocean nameserver adlarını yazıyoruz ve devam ettikten sonra onaylıyoruz.
+      <description>Iodine Aracı Kullanarak Dns Tünelleme Iodine aracı kullanarak dns tünelleme nasıl yapılır inceleyelim. Bize kontrolümüzde olan bir sunucu lazım bunun için ben digitalocean da oluşturduğum sunucuyu kullanacağım. Ve bu sunucuya bağlı bir domain adına ihtiyacımız var. Domain adını ücretsiz olarak edinebileceğiniz bir çok seçenek mevcut. Alan adını alırken dns ayarlarında &amp;ldquo;use your own DNS&amp;rdquo; sekmesinden nameserver kısmına digitalocean nameserver adlarını yazıyoruz ve devam ettikten sonra onaylıyoruz.
 Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz.</description>
     </item>
     

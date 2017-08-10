@@ -3,18 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://zehrabetulboynuegri.me/links/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://zehrabetulboynuegri.me/about/</loc>
     <lastmod>2017-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://zehrabetulboynuegri.me/post/dnstunnelling/</loc>
-    <lastmod>2017-08-03T19:19:28+03:00</lastmod>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,19 +18,38 @@
   </url>
   
   <url>
+    <loc>http://zehrabetulboynuegri.me/tags/dnstunnelling/</loc>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zehrabetulboynuegri.me/tags/dnst%C3%BCnelleme/</loc>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zehrabetulboynuegri.me/tags/iodine/</loc>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://zehrabetulboynuegri.me/post/</loc>
-    <lastmod>2017-08-03T19:19:28+03:00</lastmod>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://zehrabetulboynuegri.me/tags/</loc>
+    <lastmod>2017-08-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://zehrabetulboynuegri.me/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

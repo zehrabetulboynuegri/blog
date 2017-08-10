@@ -5,7 +5,11 @@
   <meta charset="utf-8" />
 
   
-  <title>Dns Tünelleme</title>
+  <title>
+  Tag → dnstünelleme
+  
+   | My Articles
+</title>
 
   
   
@@ -13,18 +17,14 @@
 
   
   <meta name="author" content="Zehra Betül Boynueğri" />
-  <meta name="description" content="Iodine Aracı Kullanarak Dns Tünelleme Iodine aracı kullanarak dns tünelleme nasıl yapılır inceleyelim. Bize kontrolümüzde olan bir sunucu lazım bunun için ben digitalocean da oluşturduğum sunucuyu kullanacağım. Ve bu sunucuya bağlı bir domain adına ihtiyacımız var. Domain adını ücretsiz olarak edinebileceğiniz bir çok seçenek mevcut. Alan adını alırken dns ayarlarında &amp;ldquo;use your own DNS&amp;rdquo; sekmesinden nameserver kısmına digitalocean nameserver adlarını yazıyoruz ve devam ettikten sonra onaylıyoruz.
-Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz." />
+  <meta name="description" content="" />
 
   
-  
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@melaozhu" />
-    <meta name="twitter:title" content="Dns Tünelleme" />
-    <meta name="twitter:description" content="Iodine Aracı Kullanarak Dns Tünelleme Iodine aracı kullanarak dns tünelleme nasıl yapılır inceleyelim. Bize kontrolümüzde olan bir sunucu lazım bunun için ben digitalocean da oluşturduğum sunucuyu kullanacağım. Ve bu sunucuya bağlı bir domain adına ihtiyacımız var. Domain adını ücretsiz olarak edinebileceğiniz bir çok seçenek mevcut. Alan adını alırken dns ayarlarında &amp;ldquo;use your own DNS&amp;rdquo; sekmesinden nameserver kısmına digitalocean nameserver adlarını yazıyoruz ve devam ettikten sonra onaylıyoruz.
-Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz." />
-    <meta name="twitter:image" content="/img/avatar.jpg" />
-  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@melaozhu" />
+  <meta name="twitter:title" content="My Articles" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="/img/avatar.jpg" />
 
 
 
@@ -32,7 +32,7 @@ Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz
 <meta name="generator" content="Hugo 0.25.1" />
 
 
-<link rel="canonical" href="http://zehrabetulboynuegri.me/post/dnstunnelling/" />
+<link rel="canonical" href="http://zehrabetulboynuegri.me/tags/dnst%C3%BCnelleme/" />
 <link rel="alternative" href="http://zehrabetulboynuegri.me/index.xml" title="Zehra Betül Boynueğri" type="application/atom+xml" />
 
 
@@ -95,8 +95,6 @@ Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz
     
     <div class="suspension">
       <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
-      
-        
       
     </div>
     
@@ -191,85 +189,28 @@ Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz
   </nav>
 </header>
 
-  <section class="main post-detail">
-    <header class="post-header">
-      <h1 class="post-title">Dns Tünelleme</h1>
-      <p class="post-meta">@Zehra Betül Boynueğri · Aug 3, 2017 · 2 min read</p>
+  <section class="main post-list">
+    <header class="list-header offscreen">
+      <h2 class="list-label">Posts List</h2>
     </header>
-    <article class="post-content">
-
-<h3 id="iodine-aracı-kullanarak-dns-tünelleme">Iodine Aracı Kullanarak Dns Tünelleme</h3>
-
-<p>Iodine aracı kullanarak dns tünelleme nasıl yapılır inceleyelim.
-Bize kontrolümüzde olan bir sunucu lazım bunun için ben digitalocean da oluşturduğum sunucuyu kullanacağım. Ve bu sunucuya bağlı bir domain adına ihtiyacımız var. Domain adını ücretsiz olarak edinebileceğiniz bir çok seçenek mevcut. Alan adını alırken dns ayarlarında &ldquo;use your own DNS&rdquo; sekmesinden nameserver kısmına digitalocean nameserver adlarını yazıyoruz ve devam ettikten sonra onaylıyoruz.</p></p>
-
-<p><img src="https://zehrabetulboynuegri.github.io/blog/img/domain.png" ></p>
-
-<p>Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz. Oraya aldığımız domain adını ekliyoruz.</p>
-
-<p><img src="https://zehrabetulboynuegri.github.io/blog/img/adddomain.png" ></p>
-
-<p>Sonrasında hostname verip sunucu ip sini giriyoruz.</p>
-
-<p><img src="https://zehrabetulboynuegri.github.io/blog/img/dns.png" ></p>
-
-<p>Gerekli olan sunucu dns ayarlaması yapıldıktan sonra aldığımız test.dnstunnelling.cf adresine ping atıp bakabiliriz.</p>
-
-<p><img src="https://zehrabetulboynuegri.github.io/blog/img/7.png" ></p>
-
-<p>Gelelim dns tünellemede bize eşlik edecek olan iodine aracına. Iodine aracını hem server tarafına hem de client tarafına kuruyoruz. Benim her ikisi de ubuntu işletim sistemi olduğu için direkt aşağıdaki komut ile iki tarafın da kurulumunu gerçekleştirdim.</p>
-
-<pre><code>sudo apt-get install iodine
-</code></pre>
-
-<p>Şimdi <strong><em>server</em></strong> tarafında aşağıdaki komutu yazalım.</p>
-
-<pre><code>iodined -f -P password 10.0.0.1 test.dnstunnelling.cf
-</code></pre>
-
-<p>Burada yazan <code>password</code> oluşturulan bağlantıya atanacak olan parola. Client tarafında bağlanılacağı zaman bu parola kullanılır.
-10.0.0.1 yerine ise sunucunun dns0 bacağına atamak istediğiniz ip verilir.
-test.dnstunnelling.cf yerinede sunucuya eklenen domain adı gelir.</p>
-
-<p><img src="https://zehrabetulboynuegri.github.io/blog/img/1.png" alt="" /></p>
-
-<p><strong><em>Client</em></strong> tarafında ise</p>
-
-<pre><code>iodine -fP password 37.139.26.240 test.dnstunnelling.cf
-</code></pre>
-
-<p>komutu çalıştırılır. (37.139.26.240&ndash;&gt;server ip)</p>
-
-<p><img src="https://zehrabetulboynuegri.github.io/blog/img/2.png" alt="" />
-Dns tünel bağlantısı tamamlandı. İnternete bağlı olduğunuz ağ arayüzünü wireshark ile dinlemeye aldığınızda dns protokollü paketleri görebirsiniz.</p>
-
-<p><img src="https://zehrabetulboynuegri.github.io/blog/img/3.png" alt="" /></p>
-
-<p>Aynı zamanda iki tarafta da ping atıp,
-<img src="https://zehrabetulboynuegri.github.io/blog//img/9.png" alt="" /></p>
-
-<p>dns0 arayüzünü dinleyelim.</p>
-
-<p><img src="https://zehrabetulboynuegri.github.io/blog/img/8.png" alt="" /></p>
-</article>
-    <footer class="post-footer">
-      
-      <ul class="post-tags">
-        
-          <li><a href="http://zehrabetulboynuegri.me/tags/dnst%C3%BCnelleme"><span class="tag">Dnstünelleme</span></a></li>
-        
-          <li><a href="http://zehrabetulboynuegri.me/tags/iodine"><span class="tag">Iodine</span></a></li>
-        
-          <li><a href="http://zehrabetulboynuegri.me/tags/dnstunnelling"><span class="tag">Dnstunnelling</span></a></li>
-        
-      </ul>
-      
-      <p class="post-copyright">
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
-      </p>
-    </footer>
+    
     
       
+        <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="http://zehrabetulboynuegri.me/post/dnstunnelling/" class="post-link">Dns Tünelleme</a></h3>
+    <p class="post-meta">@Zehra Betül Boynueğri · Aug 3, 2017 · 2 min read</p>
+  </header>
+  
+  <p class="post-summary">Iodine Aracı Kullanarak Dns Tünelleme Iodine aracı kullanarak dns tünelleme nasıl yapılır inceleyelim. Bize kontrolümüzde olan bir sunucu lazım bunun için ben digitalocean da oluşturduğum sunucuyu kullanacağım. Ve bu sunucuya bağlı bir domain adına ihtiyacımız var. Domain adını ücretsiz olarak edinebileceğiniz bir çok seçenek mevcut. Alan adını alırken dns ayarlarında “use your own DNS” sekmesinden nameserver kısmına digitalocean nameserver adlarını yazıyoruz ve devam ettikten sonra onaylıyoruz.
+Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz.</p>
+  <footer class="post-footer">
+    <a class="read-more" href="http://zehrabetulboynuegri.me/post/dnstunnelling/">Read More →</a>
+  </footer>
+</article>
+
+      
+    
     
   </section>
   <footer class="site-footer">
