@@ -68,10 +68,10 @@ Dns tünel bağlantısı tamamlandı. İnternete bağlı olduğunuz ağ arayüz�
 
 ![](https://zehrabetulboynuegri.github.io/blog/img/3.png) 
 
-Aynı zamanda iki tarafta da ping atıp,
+Aynı zamanda iki tarafta da ping atıp, dns0 arayüzünü dinleyelim.
 ![](https://zehrabetulboynuegri.github.io/blog//img/9.png) 
 
- dns0 arayüzünü dinleyelim.
+
 
  ![](https://zehrabetulboynuegri.github.io/blog/img/8.png) 
  
