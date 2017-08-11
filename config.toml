@@ -1,6 +1,6 @@
 baseURL = "http://zehrabetulboynuegri.me/"
 languageCode = "tr"
-title = "Zehra Betül Boynueğri"
+title = "Zehra Betül Boynuegri"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 pygmentsuseclasses = true
