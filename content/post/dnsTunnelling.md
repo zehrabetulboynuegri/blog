@@ -1,5 +1,5 @@
 ---
-title: Dns Tünelleme
+title: "DNS TÜNELLEME"
 
 tags: [ "dnstünelleme", "iodine", "dnstunnelling"]
 date: "2017-08-03"
