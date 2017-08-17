@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>METASPLOITABLE</title>
+
+  
+  
+
+
+  
+  <meta name="author" content="Zehra Betül Boynueğri" />
+  <meta name="description" content="Metasploitable ile Penetrasyon Test Pratiği Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini buradan indirebilirsiniz.
+Sanal makinelerin network ayarını ayarlayalım. Sanal kali üzerinden ilerleneceğinden kali tarafında internet bağlantısı olması için, Machine &amp;gt; settings &amp;gt; network &amp;gt; adapter1 sekmesinden bridge moduna alıyoruz.
+Metasploitable sanalını görebilmesi için ise adapter2 yi de NAT moduna alıyoruz.
+Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesinden ayarlar yapılandırabilir." />
+
+  
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@melaozhu" />
+    <meta name="twitter:title" content="METASPLOITABLE" />
+    <meta name="twitter:description" content="Metasploitable ile Penetrasyon Test Pratiği Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini buradan indirebilirsiniz.
+Sanal makinelerin network ayarını ayarlayalım. Sanal kali üzerinden ilerleneceğinden kali tarafında internet bağlantısı olması için, Machine &amp;gt; settings &amp;gt; network &amp;gt; adapter1 sekmesinden bridge moduna alıyoruz.
+Metasploitable sanalını görebilmesi için ise adapter2 yi de NAT moduna alıyoruz.
+Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesinden ayarlar yapılandırabilir." />
+    <meta name="twitter:image" content="/img/avatar.jpg" />
+  
+
+
+
+
+<meta name="generator" content="Hugo 0.25.1" />
+
+
+<link rel="canonical" href="http://zehrabetulboynuegri.me/post/metasploitable/" />
+<link rel="alternative" href="http://zehrabetulboynuegri.me/index.xml" title="Zehra Betül Boynuegri" type="application/atom+xml" />
+
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+
+
+<meta name="robots" content="index,follow" />
+<meta name="referrer" content="origin-when-cross-origin" />
+<meta name="google-site-verification" content="_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc" />
+<meta name="msvalidate.01" content="22596E34341DD1D17D6022C44647E587" />
+
+
+
+
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Zehra Betül Boynuegri" />
+<meta name="msapplication-tooltip" content="Zehra Betül Boynuegri" />
+<meta name='msapplication-navbutton-color' content="#5fbf5e" />
+<meta name="msapplication-TileColor" content="#5fbf5e" />
+<meta name="msapplication-TileImage" content="/img/tile-image-windows.png" />
+<link rel="icon" href="http://zehrabetulboynuegri.me/img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="http://zehrabetulboynuegri.me/img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="http://zehrabetulboynuegri.me/img/favicon-32x32.png" />
+<link rel="icon" sizes="192x192" href="http://zehrabetulboynuegri.me/img/touch-icon-android.png" />
+<link rel="apple-touch-icon" href="http://zehrabetulboynuegri.me/img/touch-icon-apple.png" />
+<link rel="mask-icon" href="http://zehrabetulboynuegri.me/img/safari-pinned-tab.svg" color="#5fbf5e" />
+
+
+
+<link rel="stylesheet" href="//cdn.bootcss.com/video.js/6.2.1/video-js.min.css" />
+
+<link rel="stylesheet" href="http://zehrabetulboynuegri.me/css/bundle.css" />
+
+
+  
+  <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//cdn.bootcss.com/video.js/6.2.1/ie8/videojs-ie8.min.js"></script>
+  <![endif]-->
+
+<!--[if lte IE 11]>
+    <script src="//cdn.bootcss.com/classlist/2014.01.31/classList.min.js"></script>
+  <![endif]-->
+
+
+<script src="//cdn.bootcss.com/object-fit-images/3.2.3/ofi.min.js"></script>
+
+
+<script src="//cdn.bootcss.com/smooth-scroll/12.1.0/js/smooth-scroll.polyfills.min.js"></script>
+
+
+</head>
+  <body>
+    
+    <div class="suspension">
+      <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
+      
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <img class="avatar" src="http://zehrabetulboynuegri.me/img/avatar.jpg" alt="Avatar">
+  
+  <h2 class="title">Zehra Betül Boynuegri</h2>
+  
+  <p class="subtitle">Ne güzel söylemiş rahmetli dedem; arif olmak kolay, iş zarif olmakta.</p>
+  <button class="menu-toggle" type="button">
+    <span class="icon icon-menu"></span>
+  </button>
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item  is-active"><a href="http://zehrabetulboynuegri.me/">Home</a></li>
+      
+        <li class="menu-item "><a href="https://github.com/zehrabetulboynuegri">Works</a></li>
+      
+        <li class="menu-item "><a href="http://zehrabetulboynuegri.me/about/">About</a></li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Socail Networks</h2>
+    <ul class="social-list">
+
+      
+      <li class="social-item">
+        <a href="mailto:zehrabetulboynuegri@gmail.com" title="Email"><span class="icon icon-email"></span></a>
+      </li>
+
+      
+      <li class="social-item">
+        <a href="//github.com/zehrabetulboynuegri" title="GitHub"><span class="icon icon-github"></span></a>
+      </li>
+
+      <li class="social-item">
+        <a href="//twitter.com/Zboynuegri" title="Wwitter"><span class="icon icon-twitter"></span></a>
+      </li>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <li class="social-item">
+        <a href="//www.linkedin.com/in/zehrabetulboynuegri" title="Linkedin"><span class="icon icon-linkedin"></span></a>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="social-item">
+        <a href="http://zehrabetulboynuegri.me/index.xml"><span class="icon icon-rss" title="RSS"></span></a>
+      </li>
+
+    </ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">METASPLOITABLE</h1>
+      <p class="post-meta">@Zehra Betül Boynueğri · Aug 17, 2017 · 2 min read</p>
+    </header>
+    <article class="post-content">
+
+<h3 id="metasploitable-ile-penetrasyon-test-pratiği">Metasploitable ile Penetrasyon Test Pratiği</h3>
+
+<p>Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini <a href="https://www.vulnhub.com/entry/metasploitable-2,29/">buradan indirebilirsiniz.</a></p>
+
+<p>Sanal makinelerin network ayarını ayarlayalım. Sanal kali üzerinden ilerleneceğinden kali tarafında internet bağlantısı olması için, Machine &gt; settings &gt; network &gt; adapter1 sekmesinden bridge moduna alıyoruz.</p>
+
+<p><img src="https://zehrabetulboynuegri.github.io/blog/img/kaliadpt1.png"></p>
+
+<p>Metasploitable sanalını görebilmesi için ise adapter2 yi de NAT moduna alıyoruz.</p>
+
+<p><img src="https://zehrabetulboynuegri.github.io/blog/img/kaliadpt2.png"></p>
+
+<p>Eğer name listesi boş ise file &gt; preferences &gt; network  sekmesinden ayarlar yapılandırabilir.</p>
+
+<p>Metasploitable tarafında ise aynı şekilde adapter1 sekmesine geliyoruz ve NAT moduna alıyoruz.</p>
+
+<p><img src="https://zehrabetulboynuegri.github.io/blog/img/msfnetwork.png"></p>
+
+<p>Metasploitable tarafında <code>ifconfig</code> komutu ile ip adresini kontrol edelim.</p>
+
+<p><img src="https://zehrabetulboynuegri.github.io/blog/img/ifconfig.png"></p>
+
+<p>Kali tarafında internet bağlantısı yoksa <code><code>dhclient &lt;interface&gt;</code></code> (dhclient eth0) komutu ile yapılandırabilirsiniz.</p>
+
+<p>Network ayarlarını tamamladığımıza göre hedef ip adres aralığını nmap ile taramaya başlayalım.</p>
+root@kali:~# nmap -sS 10.0.2.0/24
+
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-08-17 10:17 EDT
+Nmap scan report for 10.0.2.3
+Host is up (0.00078s latency).
+All 1000 scanned ports on 10.0.2.3 are filtered
+MAC Address: 08:00:27:E0:1A:90 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 10.0.2.4
+Host is up (0.00081s latency).
+Not shown: 977 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 08:00:27:7E:10:2E (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 10.0.2.5
+Host is up (0.0000070s latency).
+All 1000 scanned ports on 10.0.2.5 are closed
+
+Nmap done: 256 IP addresses (3 hosts up) scanned in 32.61 seconds
+
+<p>Metasploitable için atanan 10.0.2.4 ip adresine ait portlar ve açık servisleri görmekteyiz. İncelen bazı portlar doğrultusunda tespit edilen güvenlik açıklarına bakalım.</p>
+
+<h4 id="güvenlik-açıkları"><strong>Güvenlik Açıkları</strong></h4>
+
+<ul>
+<li><strong><em>Uzaktan Erişim Zafiyeti</em></strong>
+<br /></li>
+</ul>
+
+<p>Tarama sonucu açık olduğunu bulduğumuz 512, 513, 514 numaralı portlar uzaktan erişimi sağlayan portlardır. Bu portta çalışan servisler kimlik doğrulaması olmaksızın erişim sağlanacak şekilde konfigüre edildiği için <code><code>rlogin &lt;target&gt;</code></code> komutu ile metasploitable sistemine erişebiliriz.</p>
+
+<p><img src="https://zehrabetulboynuegri.github.io/blog/img/rlogin1.jpg"></p>
+
+<p>Gördüğünüz gibi şifre istiyor.  Kali Linux&rsquo;da ssh-client kurulu değil. Rsh-client, kullanıcının uzaktaki makineye bağlanma iznini vererek, oturum açabilmesine yarayan bir programdır.</p>
+
+<blockquote>
+<p><code>apt-get install rsh-client</code></p>
+</blockquote>
+
+<p><img src="https://zehrabetulboynuegri.github.io/blog/img/rsh-client.png"></p>
+
+<p>Rsh-client kurulduktan sonra tekrar deneyelim.</p>
+
+<p><img src="https://zehrabetulboynuegri.github.io/blog/img/rlogin2.png"></p>
+
+<p>Gördüğünüz üzere metasploitable makinesine root  yetkisiyle eriştik.</p>
+</article>
+    <footer class="post-footer">
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+      </p>
+    </footer>
+    
+      
+    
+  </section>
+  <footer class="site-footer">
+  <p>© 2017 Zehra Betül Boynuegri</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank">Nuo</a>.</p>
+  
+</footer>
+
+
+
+<script src="//cdn.bootcss.com/video.js/6.2.1/video.min.js"></script>
+<script src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<script src="http://zehrabetulboynuegri.me/js/bundle.js"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-XXXXXXXX-X', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+  </body>
+</html>

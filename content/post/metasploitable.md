@@ -10,21 +10,21 @@ Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik 
 
 Sanal makinelerin network ayarını ayarlayalım. Sanal kali üzerinden ilerleneceğinden kali tarafında internet bağlantısı olması için, Machine > settings > network > adapter1 sekmesinden bridge moduna alıyoruz. 
 
-![](https://zehrabetulboynuegri.github.io/blog/img/kaliadpt1.png) 
+<img src="https://zehrabetulboynuegri.github.io/blog/img/kaliadpt1.png">
 
 Metasploitable sanalını görebilmesi için ise adapter2 yi de NAT moduna alıyoruz.
 
- ![](https://zehrabetulboynuegri.github.io/blog/img/kaliadpt2.png) 
+<img src="https://zehrabetulboynuegri.github.io/blog/img/kaliadpt2.png"> 
  
 Eğer name listesi boş ise file > preferences > network  sekmesinden ayarlar yapılandırabilir.
 
 Metasploitable tarafında ise aynı şekilde adapter1 sekmesine geliyoruz ve NAT moduna alıyoruz.
 
-![](https://zehrabetulboynuegri.github.io/blog/img/msfnetwork.png) 
+<img src="https://zehrabetulboynuegri.github.io/blog/img/msfnetwork.png">
 
 Metasploitable tarafında <code>ifconfig</code> komutu ile ip adresini kontrol edelim.
 
-![](https://zehrabetulboynuegri.github.io/blog/img/ifconfig.png) 
+<img src="https://zehrabetulboynuegri.github.io/blog/img/ifconfig.png">
 
 
 Kali tarafında internet bağlantısı yoksa <code>``dhclient <interface>``</code> (dhclient eth0) komutu ile yapılandırabilirsiniz.
@@ -83,20 +83,17 @@ Metasploitable için atanan 10.0.2.4 ip adresine ait portlar ve açık servisler
   
   Tarama sonucu açık olduğunu bulduğumuz 512, 513, 514 numaralı portlar uzaktan erişimi sağlayan portlardır. Bu portta çalışan servisler kimlik doğrulaması olmaksızın erişim sağlanacak şekilde konfigüre edildiği için <code>``rlogin <target>``</code> komutu ile metasploitable sistemine erişebiliriz.
   
-  ![](https://zehrabetulboynuegri.github.io/blog/img/rlogin1.jpg) 
+<img src="https://zehrabetulboynuegri.github.io/blog/img/rlogin1.jpg"> 
   
   Gördüğünüz gibi şifre istiyor.  Kali Linux'da ssh-client kurulu değil. Rsh-client, kullanıcının uzaktaki makineye bağlanma iznini vererek, oturum açabilmesine yarayan bir programdır. 
   
   > <code>apt-get install rsh-client</code> 
   
-  ![](https://zehrabetulboynuegri.github.io/blog/img/rsh-client.png) 
+<img src="https://zehrabetulboynuegri.github.io/blog/img/rsh-client.png">
+ 
   
   Rsh-client kurulduktan sonra tekrar deneyelim.
   
-  ![](https://zehrabetulboynuegri.github.io/blog/img/rlogin2.png) 
+  <img src="https://zehrabetulboynuegri.github.io/blog/img/rlogin2.png">
   
   Gördüğünüz üzere metasploitable makinesine root  yetkisiyle eriştik.
-  
-  
-  
-
