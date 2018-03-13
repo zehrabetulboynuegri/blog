@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 16 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Aug 2017 17:08:37 +0300</lastBuildDate>
     
 	<atom:link href="https://zehrabetulboynuegri.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>METASPLOITABLE</title>
+      <link>https://zehrabetulboynuegri.github.io/blog/post/metasploitable/</link>
+      <pubDate>Thu, 17 Aug 2017 17:08:37 +0300</pubDate>
+      
+      <guid>https://zehrabetulboynuegri.github.io/blog/post/metasploitable/</guid>
+      <description>Metasploitable İncelemesi Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini buradan indirebilirsiniz.
+Metasploitable sanalına sanal kali üzerinden atak gerçekleştirilecek. Sanal makinelerin network ayarını ayarlayalım. Kali tarafında internet bağlantısı olması için, Machine &amp;gt; settings &amp;gt; network &amp;gt; adapter1 sekmesinden bridge moduna alıyoruz.
+Metasploitable sanalını görebilmesi için ise adapter2 yi de NAT moduna alıyoruz.
+Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesinden ayarlar yapılandırılabilir.</description>
+    </item>
     
     <item>
       <title>PENTEST LAB ÇALIŞMASI</title>

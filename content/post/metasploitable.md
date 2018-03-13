@@ -1,7 +1,6 @@
 ﻿---
 title: "METASPLOITABLE"
 date: 2017-08-17T17:08:37+03:00
-draft: true
 ---
 
 ### Metasploitable İncelemesi
@@ -153,3 +152,4 @@ Metasploitable için atanan 10.0.2.4 ip adresinde açık olan tüm portları ve 
   
   <img src="https://zehrabetulboynuegri.github.io/blog/img/telnet.png">
  
+devamı gelecek...
