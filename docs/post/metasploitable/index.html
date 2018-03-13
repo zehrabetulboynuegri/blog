@@ -13,20 +13,20 @@
 
   
   <meta name="author" content="Zehra Betül Boynueğri" />
-  <meta name="description" content="Metasploitable ile Penetrasyon Test Pratiği Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini buradan indirebilirsiniz.
-Sanal makinelerin network ayarını ayarlayalım. Sanal kali üzerinden ilerleneceğinden kali tarafında internet bağlantısı olması için, Machine &amp;gt; settings &amp;gt; network &amp;gt; adapter1 sekmesinden bridge moduna alıyoruz.
+  <meta name="description" content="Metasploitable İncelemesi Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini buradan indirebilirsiniz.
+Metasploitable sanalına sanal kali üzerinden atak gerçekleştirilecek. Sanal makinelerin network ayarını ayarlayalım. Kali tarafında internet bağlantısı olması için, Machine &amp;gt; settings &amp;gt; network &amp;gt; adapter1 sekmesinden bridge moduna alıyoruz.
 Metasploitable sanalını görebilmesi için ise adapter2 yi de NAT moduna alıyoruz.
-Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesinden ayarlar yapılandırabilir." />
+Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesinden ayarlar yapılandırılabilir." />
 
   
   
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@melaozhu" />
     <meta name="twitter:title" content="METASPLOITABLE" />
-    <meta name="twitter:description" content="Metasploitable ile Penetrasyon Test Pratiği Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini buradan indirebilirsiniz.
-Sanal makinelerin network ayarını ayarlayalım. Sanal kali üzerinden ilerleneceğinden kali tarafında internet bağlantısı olması için, Machine &amp;gt; settings &amp;gt; network &amp;gt; adapter1 sekmesinden bridge moduna alıyoruz.
+    <meta name="twitter:description" content="Metasploitable İncelemesi Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini buradan indirebilirsiniz.
+Metasploitable sanalına sanal kali üzerinden atak gerçekleştirilecek. Sanal makinelerin network ayarını ayarlayalım. Kali tarafında internet bağlantısı olması için, Machine &amp;gt; settings &amp;gt; network &amp;gt; adapter1 sekmesinden bridge moduna alıyoruz.
 Metasploitable sanalını görebilmesi için ise adapter2 yi de NAT moduna alıyoruz.
-Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesinden ayarlar yapılandırabilir." />
+Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesinden ayarlar yapılandırılabilir." />
     <meta name="twitter:image" content="/img/avatar.jpg" />
   
 
@@ -196,15 +196,15 @@ Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesind
   <section class="main post-detail">
     <header class="post-header">
       <h1 class="post-title">METASPLOITABLE</h1>
-      <p class="post-meta">@Zehra Betül Boynueğri · Aug 17, 2017 · 2 min read</p>
+      <p class="post-meta">@Zehra Betül Boynueğri · Aug 17, 2017 · 4 min read</p>
     </header>
     <article class="post-content">
 
-<h3 id="metasploitable-ile-penetrasyon-test-pratiği">Metasploitable ile Penetrasyon Test Pratiği</h3>
+<h3 id="metasploitable-incelemesi">Metasploitable İncelemesi</h3>
 
 <p>Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini <a href="https://www.vulnhub.com/entry/metasploitable-2,29/">buradan indirebilirsiniz.</a></p>
 
-<p>Sanal makinelerin network ayarını ayarlayalım. Sanal kali üzerinden ilerleneceğinden kali tarafında internet bağlantısı olması için, Machine &gt; settings &gt; network &gt; adapter1 sekmesinden bridge moduna alıyoruz.</p>
+<p>Metasploitable sanalına sanal kali üzerinden atak gerçekleştirilecek. Sanal makinelerin network ayarını ayarlayalım.  Kali tarafında internet bağlantısı olması için, Machine &gt; settings &gt; network &gt; adapter1 sekmesinden bridge moduna alıyoruz.</p>
 
 <p><img src="https://zehrabetulboynuegri.github.io/blog/img/kaliadpt1.png"></p>
 
@@ -212,7 +212,7 @@ Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesind
 
 <p><img src="https://zehrabetulboynuegri.github.io/blog/img/kaliadpt2.png"></p>
 
-<p>Eğer name listesi boş ise file &gt; preferences &gt; network  sekmesinden ayarlar yapılandırabilir.</p>
+<p>Eğer name listesi boş ise file &gt; preferences &gt; network  sekmesinden ayarlar yapılandırılabilir.</p>
 
 <p>Metasploitable tarafında ise aynı şekilde adapter1 sekmesine geliyoruz ve NAT moduna alıyoruz.</p>
 
@@ -225,7 +225,8 @@ Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesind
 <p>Kali tarafında internet bağlantısı yoksa <code><code>dhclient &lt;interface&gt;</code></code> (dhclient eth0) komutu ile yapılandırabilirsiniz.</p>
 
 <p>Network ayarlarını tamamladığımıza göre hedef ip adres aralığını nmap ile taramaya başlayalım.</p>
-root@kali:~# nmap -sS 10.0.2.0/24
+
+<pre><code>root@kali:~# nmap -sS 10.0.2.0/24
 
 Starting Nmap 7.40 ( https://nmap.org ) at 2017-08-17 10:17 EDT
 Nmap scan report for 10.0.2.3
@@ -267,8 +268,51 @@ Host is up (0.0000070s latency).
 All 1000 scanned ports on 10.0.2.5 are closed
 
 Nmap done: 256 IP addresses (3 hosts up) scanned in 32.61 seconds
+</code></pre>
 
-<p>Metasploitable için atanan 10.0.2.4 ip adresine ait portlar ve açık servisleri görmekteyiz. İncelen bazı portlar doğrultusunda tespit edilen güvenlik açıklarına bakalım.</p>
+<pre><code>root@kali:~# nmap -sS 10.0.2.4 -p- 
+
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-08-21 09:28 EDT
+Nmap scan report for 10.0.2.4
+Host is up (0.0016s latency).
+Not shown: 65505 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+53/tcp    open  domain
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+1099/tcp  open  rmiregistry
+1524/tcp  open  ingreslock
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+3306/tcp  open  mysql
+3632/tcp  open  distccd
+5432/tcp  open  postgresql
+5900/tcp  open  vnc
+6000/tcp  open  X11
+6667/tcp  open  irc
+6697/tcp  open  ircs-u
+8009/tcp  open  ajp13
+8180/tcp  open  unknown
+8787/tcp  open  msgsrvr
+34824/tcp open  unknown
+39793/tcp open  unknown
+46422/tcp open  unknown
+51046/tcp open  unknown
+MAC Address: 08:00:27:7E:10:2E (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 6.30 seconds
+</code></pre>
+
+<p>Metasploitable için atanan 10.0.2.4 ip adresinde açık olan tüm portları ve  servisleri görmekteyiz. İncelen bazı portlar doğrultusunda tespit edilen güvenlik açıklarına bakalım.</p>
 
 <h4 id="güvenlik-açıkları"><strong>Güvenlik Açıkları</strong></h4>
 
@@ -294,6 +338,46 @@ Nmap done: 256 IP addresses (3 hosts up) scanned in 32.61 seconds
 <p><img src="https://zehrabetulboynuegri.github.io/blog/img/rlogin2.png"></p>
 
 <p>Gördüğünüz üzere metasploitable makinesine root  yetkisiyle eriştik.</p>
+
+<ul>
+<li><strong><em>Zayıf Şifreler</em></strong></li>
+</ul>
+
+<pre><code> root@kali:~# telnet 10.0.2.4
+Trying 10.0.2.4...
+Connected to 10.0.2.4.
+Escape character is '^]'.
+                _                  _       _ _        _     _      ____  
+ _ __ ___   ___| |_ __ _ ___ _ __ | | ___ (_) |_ __ _| |__ | | ___|___ \ 
+| '_ ` _ \ / _ \ __/ _` / __| '_ \| |/ _ \| | __/ _` | '_ \| |/ _ \ __) |
+| | | | | |  __/ || (_| \__ \ |_) | | (_) | | || (_| | |_) | |  __// __/ 
+|_| |_| |_|\___|\__\__,_|___/ .__/|_|\___/|_|\__\__,_|_.__/|_|\___|_____|
+                            |_|                                          
+
+
+Warning: Never expose this VM to an untrusted network!
+
+Contact: msfdev[at]metasploit.com
+
+Login with msfadmin/msfadmin to get started
+
+
+metasploitable login: msfadmin
+Password: 
+Last login: Mon Aug 21 08:24:10 EDT 2017 on tty1
+Linux metasploitable 2.6.24-16-server #1 SMP Thu Apr 10 13:58:00 UTC 2008 i686
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To access official Ubuntu documentation, please visit:
+http://help.ubuntu.com/
+No mail.
+</code></pre>
 </article>
     <footer class="post-footer">
       
