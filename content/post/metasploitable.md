@@ -1,7 +1,7 @@
 ﻿---
 title: "METASPLOITABLE"
-date: 2017-08-17T17:08:37+03:00
-
+tags: [ "metasploitable" ]
+date: "2017-08-16"
 ---
 
 ### Metasploitable İncelemesi
