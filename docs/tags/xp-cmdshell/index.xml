@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xp Cmdshell on Zehra Betül Boynuegri</title>
-    <link>http://zehrabetulboynuegri.me/tags/xp-cmdshell/</link>
+    <link>https://zehrabetulboynuegri.github.io/blog/tags/xp-cmdshell/</link>
     <description>Recent content in Xp Cmdshell on Zehra Betül Boynuegri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 16 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://zehrabetulboynuegri.me/tags/xp-cmdshell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zehrabetulboynuegri.github.io/blog/tags/xp-cmdshell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PENTEST LAB ÇALIŞMASI</title>
-      <link>http://zehrabetulboynuegri.me/post/pentestlab/</link>
+      <link>https://zehrabetulboynuegri.github.io/blog/post/pentestlab/</link>
       <pubDate>Wed, 16 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://zehrabetulboynuegri.me/post/pentestlab/</guid>
+      <guid>https://zehrabetulboynuegri.github.io/blog/post/pentestlab/</guid>
       <description>Penetrasyon testi, sistemlerin çeşitli sorunlarını göz önüne alarak, testler, analizler ve çözüm üreten tekniklerden oluşan bir kombinasyondur. Pentest testi aşamalarına değinip, ip adresi verilen sunucu üzerinde lab çalışması yapalım.
 Penetrasyon Testi Aşamaları 1.Hazırlık ve planlama  Müşteri ile toplantı Test hedeflerini sıralama Güvenliği test edilecek hedef sistemi belirleme  2.Keşif Ağ ve host keşfi, servis sorgulama aşaması;
  Ip taraması yaparak ayaktaki ip leri belirleme, Port taraması yaparak port durumunu ve o portta çalışan servisleri görüntüleyerek sisteme sızmaya sebep olabilecek servis keşfi, Zafiyet taraması  süreçlerinden oluşur.</description>

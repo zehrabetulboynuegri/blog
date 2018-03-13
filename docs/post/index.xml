@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Zehra Betül Boynuegri</title>
-    <link>http://zehrabetulboynuegri.me/post/</link>
+    <link>https://zehrabetulboynuegri.github.io/blog/post/</link>
     <description>Recent content in Posts on Zehra Betül Boynuegri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Thu, 17 Aug 2017 17:08:37 +0300</lastBuildDate>
     
-	<atom:link href="http://zehrabetulboynuegri.me/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zehrabetulboynuegri.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>METASPLOITABLE</title>
-      <link>http://zehrabetulboynuegri.me/post/metasploitable/</link>
+      <link>https://zehrabetulboynuegri.github.io/blog/post/metasploitable/</link>
       <pubDate>Thu, 17 Aug 2017 17:08:37 +0300</pubDate>
       
-      <guid>http://zehrabetulboynuegri.me/post/metasploitable/</guid>
+      <guid>https://zehrabetulboynuegri.github.io/blog/post/metasploitable/</guid>
       <description>Metasploitable İncelemesi Metasploitable penetrasyon testlerinde ve güvenlik araçları üzerinde pratik yapmaya yarayan sanalda çalışan makinedir.Metasploitable sanal makinesini buradan indirebilirsiniz.
 Metasploitable sanalına sanal kali üzerinden atak gerçekleştirilecek. Sanal makinelerin network ayarını ayarlayalım. Kali tarafında internet bağlantısı olması için, Machine &amp;gt; settings &amp;gt; network &amp;gt; adapter1 sekmesinden bridge moduna alıyoruz.
 Metasploitable sanalını görebilmesi için ise adapter2 yi de NAT moduna alıyoruz.
@@ -26,10 +26,10 @@ Eğer name listesi boş ise file &amp;gt; preferences &amp;gt; network sekmesind
     
     <item>
       <title>PENTEST LAB ÇALIŞMASI</title>
-      <link>http://zehrabetulboynuegri.me/post/pentestlab/</link>
+      <link>https://zehrabetulboynuegri.github.io/blog/post/pentestlab/</link>
       <pubDate>Wed, 16 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://zehrabetulboynuegri.me/post/pentestlab/</guid>
+      <guid>https://zehrabetulboynuegri.github.io/blog/post/pentestlab/</guid>
       <description>Penetrasyon testi, sistemlerin çeşitli sorunlarını göz önüne alarak, testler, analizler ve çözüm üreten tekniklerden oluşan bir kombinasyondur. Pentest testi aşamalarına değinip, ip adresi verilen sunucu üzerinde lab çalışması yapalım.
 Penetrasyon Testi Aşamaları 1.Hazırlık ve planlama  Müşteri ile toplantı Test hedeflerini sıralama Güvenliği test edilecek hedef sistemi belirleme  2.Keşif Ağ ve host keşfi, servis sorgulama aşaması;
  Ip taraması yaparak ayaktaki ip leri belirleme, Port taraması yaparak port durumunu ve o portta çalışan servisleri görüntüleyerek sisteme sızmaya sebep olabilecek servis keşfi, Zafiyet taraması  süreçlerinden oluşur.</description>
@@ -37,10 +37,10 @@ Penetrasyon Testi Aşamaları 1.Hazırlık ve planlama  Müşteri ile toplantı 
     
     <item>
       <title>DNS TÜNELLEME</title>
-      <link>http://zehrabetulboynuegri.me/post/dnstunnelling/</link>
+      <link>https://zehrabetulboynuegri.github.io/blog/post/dnstunnelling/</link>
       <pubDate>Thu, 03 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://zehrabetulboynuegri.me/post/dnstunnelling/</guid>
+      <guid>https://zehrabetulboynuegri.github.io/blog/post/dnstunnelling/</guid>
       <description>Iodine Aracı Kullanarak Dns Tünelleme Iodine aracı kullanarak dns tünelleme nasıl yapılır inceleyelim. Bize kontrolümüzde olan bir sunucu lazım bunun için ben digitalocean da oluşturduğum sunucuyu kullanacağım. Ve bu sunucuya bağlı bir domain adına ihtiyacımız var. Domain adını ücretsiz olarak edinebileceğiniz bir çok seçenek mevcut. Alan adını alırken dns ayarlarında &amp;ldquo;use your own DNS&amp;rdquo; sekmesinden nameserver kısmına digitalocean nameserver adlarını yazıyoruz ve devam ettikten sonra onaylıyoruz.
 Digitalocean hesabımızda networking sekmesinden domains sekmesine tıklıyoruz.</description>
     </item>
