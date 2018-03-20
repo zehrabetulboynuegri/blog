@@ -1,7 +1,7 @@
 ﻿---
 title: "METASPLOITABLE"
 tags: [ "metasploitable" ]
-date: "2017-08-16"
+date: "2017-08-23"
 ---
 
 ### Metasploitable İncelemesi
@@ -34,7 +34,7 @@ Network ayarlarını tamamladığımıza göre hedef ip adres aralığını nmap
 ```
 root@kali:~# nmap -sS 10.0.2.0/24
 
-Starting Nmap 7.40 ( https://nmap.org ) at 2017-08-17 10:17 EDT
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-08-21 09:17 EDT
 Nmap scan report for 10.0.2.3
 Host is up (0.00078s latency).
 All 1000 scanned ports on 10.0.2.3 are filtered
