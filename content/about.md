@@ -5,5 +5,7 @@ layout: "about"
 menu: "main"
 weight: 40
 ---
-Pamukkale Üniversitesi'nde bilgisayar mühendisliği okuyorum. Sistem ve ağ güvenliği uzmanı olma isteğim doğrultusunda kendimi daha çok sistem, ağ, güvenlik konuları üzerine geliştirmekteyim.
+I graduated from Pamukkale University Computer Engineering in 2019. I started working as a Full Stack Software Engineer at innoCentrum in June 2021 and I still continue to work here.
+
+My biggest motivation is to love my job, and the other is to always strive for better.
 
